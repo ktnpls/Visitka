@@ -4,7 +4,7 @@ body, html {
     padding: 0;
     font-family: Helvetica Neue, sans-serif;
     background: #000;
-    background-image: url('sources/ktnpls.ru.png');
+    background-image: url('ktnpls.ru.png');
     background-size: 100% 100%; /* Сжимаем фон по горизонтали */
     color: #fff;
     overflow-x: hidden;
