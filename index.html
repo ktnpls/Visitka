@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка ktnpls</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">Визитка ktnpls</a>
+            <nav style="display: block;" class="navigation">
+                <a href="#about" class="goto-about">Обо мне</a>
+                <a href="#works">Работы</a>
+                <a href="#reviews">Отзывы</a>
+                <a href="https://t.me/ktnpls" target="_blank">
+                    <button>Написать</button>
+                </a>
+            </nav>
+            <div class="burger-menu" id="burger-menu">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </div>
+        </div>
+        <div class="burger-overlay" id="burger-overlay">
+            <span class="close-btn" id="close-btn">&times;</span>
+            <a href="#about" class="overlay-item">Обо мне</a>
+            <a href="#works" class="overlay-item">Работы</a>
+            <a href="#reviews" class="overlay-item">Отзывы</a>
+            <a href="https://t.me/ktnpls" target="_blank" class="overlay-item">Написать</a>
+        </div>
+    </header>
+    
+    <!-- Main -->
+    <main>
+        <section style="margin-top: 300px; max-width: 1120px;" id="about">
+            <p style="font-size: 64px; font-weight: 500;">Обо мне</p>
+            <p style="font-size: 40px; max-width: 1120px; font-weight: 500;">Я — графический дизайнер и дизайнер интерфейсов с опытом работы в Photoshop и Figma. Создам стильные и функциональные решения для ваших проектов</p>
+            <a href="https://t.me/ktnpls" target="_blank"><button style="font-weight: 700; font-size: 36px;">Написать</button></a>
+        </section>
+
+        <section style="margin-top: 400px; max-width: 1320px;" id="works">
+            <p style="font-size: 48px; font-weight: 500;">Мои работы</p>
+            <picture>
+                <source src="sources/Работа 2.png" media="(max-width: 600px)">
+                <img src="sources/Работы.png" alt="Работы" class="works-image">
+            </picture>
+            <p style="font-size: 24px; font-weight: 300; font-style: italic; color: #BFBFBF;">
+                Больше работ в моем <a href="#" style="font-style: unset; color: #1298FF;">телеграм-канале</a>
+            </p>
+        </section>        
+
+        <section style="margin-top: 300px; margin-bottom: 300px; max-width: 1127px;" id="reviews">
+            <img loading="lazy" style="width: 256px;" src="sources/SpottyAnimated_AgADzh4AAmuiKEo.gif" alt="Spotty">
+            <p style="font-size: 48px; font-weight: 500;">Все отзывы в <a href="#" style="font-style: unset; color: #2da4ff;">телеграм-чате</a></p>
+            <a href="https://t.me/ktnpls" target="_blank"><button style="font-weight: 700; font-size: 36px;">Написать</button></a>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
